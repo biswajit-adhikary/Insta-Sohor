@@ -59,6 +59,42 @@
             <div id="reported-posts"></div>
         </div>
     </main>
+    <section class="questions py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="single-question pt-3">
+                        <h3>How does javascript work?</h3>
+                        <p>JavaScript is a single-threaded programming language. It works using JavaScript V8 Engine. V8
+                            Engine uses a JIT compiler to run the JavaScript code. There are many internal processes
+                            here. But the main process is V8 Engine Parse the JavaScript code first then create an
+                            Abstract Syntax Tree from the code. JavaScript is an Interpreted Language so the Interpreter
+                            Ignition starts. After that, the JIT Compiler runs and creates the Bytecode for completing
+                            the total process. After that, we can see the output.</p>
+                    </div>
+                    <div class="single-question pt-3">
+                        <h3>What does JavaScript event loop do?</h3>
+                        <p>JavaScript has one Call Stack because JavaScript is a single-threaded programming language.
+                            The Event Loop is a runtime model and this runtime model is responsible for code executing
+                            in the Call Stack. Call stack run code one by one from the task list. Other tasks are
+                            staying in the Queue list. When one call stack task is completed then he gets a new one from
+                            the queue list. There is another two important point here is asynchronous and synchronous
+                            too. Synchronous work one by one and asynchronous start work and go to Queue list and after
+                            completing the work return back again.</p>
+                    </div>
+                    <div class="single-question pt-3">
+                        <h3>Difference between Local Storage and Session Storage?</h3>
+                        <p>Local Storage data doesn't clear you need to clear it manually or use JavaScript code. Local
+                            Storage saved the data in the browser and it has no expiration date. If you close the page
+                            or turn off the PC, you can find the data in the Local Storage. On the other hand, when you
+                            close the browser, the Session Storage data is cleared. The best use of Local Storage is to
+                            save some not confidential data. Local Storage and Session Storage both can store 5MB of
+                            data and the data isn't transferred to the server.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer></footer>
 
     <!-- add javascript  file  -->
